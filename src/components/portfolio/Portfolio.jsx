@@ -25,21 +25,21 @@ export default function Portfolio() {
       <div className="portfolio-section">
         <div className="left-pad"></div>
 
-        <div className="box blockpoly-position">
+        <div className="box mongodb-position">
           <div className="image-box">
-            <img src="images/black portfolio images/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image image-hover"/>
-            <img src="images/white portfolio images/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image"/>
+            <img src="images/black portfolio images/mongodb-icon.png" alt="Mongodb" className="mongodb-image image image-hover"/>
+            <img src="images/white portfolio images/mongodb-icon.png" alt="Mongodb" className="mongodb-image image"/>
           </div>
           <span className="portfolio-title">
-            BLOCKPOLY
+            MONGODB
           </span>
           <span className="portfolio-position">
-            FOUNDING DESIGNER
+            INTERACTION DESIGNER
           </span>
           <span className="portfolio-description">
-            Currently a work in<br />
-            progress. Metaverse loan<br />
-            marketplace.
+            DS lead of the navigation<br/>
+            redesign. Building and<br/>
+            maintaining the LG DS.
           </span>
         </div>
 
@@ -55,27 +55,27 @@ export default function Portfolio() {
             PRODUCT DESIGNER
           </span>
           <span className="portfolio-description">
-            Designed their responsive<br />
-            website and lite page.<br />
-            Web3 gaming startup.
+            Spearheaded the design of<br/>
+            the responsive MVP<br/>
+            website + lite pages.
           </span>
         </div>
 
-        <div className="box mongodb-position">
+        <div className="box blockpoly-position">
           <div className="image-box">
-            <img src="images/black portfolio images/mongodb-icon.png" alt="Mongodb" className="mongodb-image image image-hover"/>
-            <img src="images/white portfolio images/mongodb-icon.png" alt="Mongodb" className="mongodb-image image"/>
+            <img src="images/black portfolio images/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image image-hover"/>
+            <img src="images/white portfolio images/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image"/>
           </div>
           <span className="portfolio-title">
-            MONGODB
+            BLOCKPOLY
           </span>
           <span className="portfolio-position">
-            PRODUCT DESIGNER
+            FOUNDING DESIGNER
           </span>
           <span className="portfolio-description">
-            Redesigned the feedback<br />
-            widget on Docs + improved<br />
-            design system components.
+            Designed an MVP metaverse<br/>
+            loan marketplace for land<br/>
+            NFTs.
           </span>
         </div>
 
@@ -91,9 +91,9 @@ export default function Portfolio() {
             PRODUCT DESIGNER
           </span>
           <span className="portfolio-description">
-            Improved the <span class="italics">Pegasus</span><br />
-            design system + their<br />
-            post purchase experience.
+            Created a guided post-<br/>
+            purchase download<br/>
+            experience.
           </span>
         </div>
 
@@ -109,9 +109,8 @@ export default function Portfolio() {
             UX DESIGNER
           </span>
           <span className="portfolio-description">
-            Created a patient<br />
-            timeline for OncoHealth +<br />
-            ASD task app.
+            Built a patient timeline<br/>
+            feature + ASD task app.
           </span>
         </div>
 
@@ -124,11 +123,11 @@ export default function Portfolio() {
             AEROMATES
           </span>
           <span className="portfolio-position">
-            UX DESIGNER
+            UX/UI DESIGNER
           </span>
           <span className="portfolio-description">
-            Designed the iOS and web<br />
-            MVP of the aviation<br />
+            Designed the iOS and web<br/>
+            MVP of the aviation<br/>
             marketplace.
           </span>
         </div>
@@ -142,12 +141,12 @@ export default function Portfolio() {
             HAUS OF GOLF
           </span>
           <span className="portfolio-position">
-            UX DESIGNER
+            GRAPHIC DESIGNER
           </span>
           <span className="portfolio-description">
-            Created their logo +<br />
-            branding guidelines for<br />
-            the VR golf startup.
+            Conceptualized brand<br/>
+            identity through style<br/>
+            guides and logo design.
           </span>
         </div>
 
@@ -160,11 +159,11 @@ export default function Portfolio() {
             VRILLAR
           </span>
           <span className="portfolio-position">
-            DESIGNER
+            UX DESIGNER
           </span>
           <span className="portfolio-description">
-            Designed the framework<br />
-            for their NFT<br />
+            Designed the user<br/>
+            interface for an NFT<br/>
             marketplace.
           </span>
         </div>

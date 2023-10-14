@@ -22,7 +22,7 @@ export default function Topbar() {
               <span className="name manifesto-name">MANIFESTO</span>
             </Link>
             <div>
-              <a className="name" href="https://drive.google.com/file/d/1AzvcaJrRYNHisR6ar0AFySibZW4tGUk7/view">RESUME</a>
+              <a className="name" href="https://drive.google.com/file/d/1CeBOftEQb7FyD2K8waF91TloiMtjClnT/view">RESUME</a>
             </div>
             <div>
               <a className="name" href="https://www.linkedin.com/in/-sandy-nguyen/">LINKEDIN</a>
