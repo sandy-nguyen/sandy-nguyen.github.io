@@ -7,9 +7,9 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
-        <Route path="" element={<Garden />} />
+        <Route exact path="/" element={<Garden />} />
         <Route path="garden" element={<Garden />} />
         <Route path="manifesto" element={<Manifesto />} />
       </Routes>
