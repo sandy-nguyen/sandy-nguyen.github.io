@@ -9,7 +9,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/garden" element={<Garden />} />
+        <Route path="" element={<Garden />} />
+        <Route path="garden" element={<Garden />} />
         <Route path="manifesto" element={<Manifesto />} />
       </Routes>
     </BrowserRouter>
