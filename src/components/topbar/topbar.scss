@@ -53,14 +53,17 @@
             .name {
                 color: #000;
                 text-decoration: none;
+                padding: 6px 8px;
             }
 
             .garden-name {
+                padding: 6px 8px;
                 text-decoration-line: underline;
+                
             }
 
             > *{
-                padding-left: 24px;
+                padding-left: 16px;
             }
         }
     }

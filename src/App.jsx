@@ -10,8 +10,8 @@ function App() {
     <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route exact path="/" element={<Garden />} />
-        <Route path="garden" element={<Garden />} />
-        <Route path="manifesto" element={<Manifesto />} />
+        <Route path="/garden" element={<Garden />} />
+        <Route path="/manifesto" element={<Manifesto />} />
       </Routes>
     </BrowserRouter>
   );
