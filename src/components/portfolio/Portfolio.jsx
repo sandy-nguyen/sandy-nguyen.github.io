@@ -27,8 +27,8 @@ export default function Portfolio() {
 
         <div className="box mongodb-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/mongodb-icon.png" alt="Mongodb" className="mongodb-image image image-hover"/>
-            <img src="images/whitePortfolioImages/mongodb-icon.png" alt="Mongodb" className="mongodb-image image"/>
+            <img src="images/blackPortfolioImages/mongodb-icon.PNG" alt="Mongodb" className="mongodb-image image image-hover"/>
+            <img src="images/whitePortfolioImages/mongodb-icon.PNG" alt="Mongodb" className="mongodb-image image"/>
           </div>
           <span className="portfolio-title">
             MONGODB
@@ -45,8 +45,8 @@ export default function Portfolio() {
 
         <div className="box double-jump-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/double-jump-icon.png" alt="Double Jump" className="double-jump-image image image-hover"/>
-            <img src="images/whitePortfolioImages/double-jump-icon.png" alt="Double Jump" className="double-jump-image image"/>
+            <img src="images/blackPortfolioImages/double-jump-icon.PNG" alt="Double Jump" className="double-jump-image image image-hover"/>
+            <img src="images/whitePortfolioImages/double-jump-icon.PNG" alt="Double Jump" className="double-jump-image image"/>
           </div>
           <span className="portfolio-title">
             DOUBLE JUMP
@@ -63,8 +63,8 @@ export default function Portfolio() {
 
         <div className="box blockpoly-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image image-hover"/>
-            <img src="images/whitePortfolioImages/blockpoly-icon.png" alt="Blockpoly" className="image blockpoly-image"/>
+            <img src="images/blackPortfolioImages/blockpoly-icon.PNG" alt="Blockpoly" className="image blockpoly-image image-hover"/>
+            <img src="images/whitePortfolioImages/blockpoly-icon.PNG" alt="Blockpoly" className="image blockpoly-image"/>
           </div>
           <span className="portfolio-title">
             BLOCKPOLY
@@ -81,8 +81,8 @@ export default function Portfolio() {
 
         <div className="box mcafee-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/mcafee-icon.png" alt="Mcafee" className="mcafee-image image image-hover"/>
-            <img src="images/whitePortfolioImages/mcafee-icon.png" alt="Mcafee" className="mcafee-image image"/>
+            <img src="images/blackPortfolioImages/mcafee-icon.PNG" alt="Mcafee" className="mcafee-image image image-hover"/>
+            <img src="images/whitePortfolioImages/mcafee-icon.PNG" alt="Mcafee" className="mcafee-image image"/>
           </div>
           <span className="portfolio-title">
             MCAFEE
@@ -99,8 +99,8 @@ export default function Portfolio() {
 
         <div className="box go-invo-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/goinvo-icon.png" alt="Go Invo" className="goinvo-image image image-hover"/>
-            <img src="images/whitePortfolioImages/goinvo-icon.png" alt="Go Invo" className="goinvo-image image"/>
+            <img src="images/blackPortfolioImages/goinvo-icon.PNG" alt="Go Invo" className="goinvo-image image image-hover"/>
+            <img src="images/whitePortfolioImages/goinvo-icon.PNG" alt="Go Invo" className="goinvo-image image"/>
           </div>
           <span className="portfolio-title">
             GOINVO
@@ -116,8 +116,8 @@ export default function Portfolio() {
 
         <div className="box aeromates-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/aeromates-icon.png" alt="Aeromates" className="aeromates-image image image-hover"/>
-            <img src="images/whitePortfolioImages/aeromates-icon.png" alt="Aeromates" className="aeromates-image image"/>
+            <img src="images/blackPortfolioImages/aeromates-icon.PNG" alt="Aeromates" className="aeromates-image image image-hover"/>
+            <img src="images/whitePortfolioImages/aeromates-icon.PNG" alt="Aeromates" className="aeromates-image image"/>
           </div>
           <span className="portfolio-title">
             AEROMATES
@@ -134,8 +134,8 @@ export default function Portfolio() {
 
         <div className="box haus-of-golf-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/haus-of-golf-icon.png" alt="Haus of Golf" className="haus-of-golf-image image image-hover"/>
-            <img src="images/whitePortfolioImages/haus-of-golf-icon.png" alt="Haus of Golf" className="haus-of-golf-image image"/>
+            <img src="images/blackPortfolioImages/haus-of-golf-icon.PNG" alt="Haus of Golf" className="haus-of-golf-image image image-hover"/>
+            <img src="images/whitePortfolioImages/haus-of-golf-icon.PNG" alt="Haus of Golf" className="haus-of-golf-image image"/>
           </div>
           <span className="portfolio-title">
             HAUS OF GOLF
@@ -152,8 +152,8 @@ export default function Portfolio() {
 
         <div className="box vrillar-position">
           <div className="image-box">
-            <img src="images/blackPortfolioImages/vrillar-icon.png" alt="Vrillar" className="vrillar-image image image-hover"/>
-            <img src="images/whitePortfolioImages/vrillar-icon.png" alt="Vrillar" className="vrillar-image image"/>
+            <img src="images/blackPortfolioImages/vrillar-icon.PNG" alt="Vrillar" className="vrillar-image image image-hover"/>
+            <img src="images/whitePortfolioImages/vrillar-icon.PNG" alt="Vrillar" className="vrillar-image image"/>
           </div>
           <span className="portfolio-title">
             VRILLAR
