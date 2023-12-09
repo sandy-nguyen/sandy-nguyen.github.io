@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/navbar/NavBar";
 import { useState, useEffect } from "react";
 function App() {
-  const [selectedSection, setSelectedSection] = useState("intro");
+    const [selectedSection, setSelectedSection] = useState("intro");
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <>
-      <HashRouter>
+      <BrowserRouter>
         <React.Fragment>
           <Navbar
             {...{
@@ -67,7 +67,7 @@ function App() {
           />
           <Route path="manifesto" element={<Manifesto />} />
         </Routes>
-      </HashRouter>
+      </BrowserRouter>
     </>
   );
 }
