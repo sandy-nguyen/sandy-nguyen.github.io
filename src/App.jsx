@@ -2,11 +2,11 @@ import Garden from "./Garden";
 import Manifesto from "./Manifesto";
 import "./app.scss";
 import React, { Component }  from 'react';
-import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
 import Navbar from "./components/navbar/NavBar";
 import { useState, useEffect } from "react";
 function App() {
-    const [selectedSection, setSelectedSection] = useState("intro");
+  const [selectedSection, setSelectedSection] = useState("intro");
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
@@ -25,7 +25,7 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
+      <HashRouter>
         <React.Fragment>
           <Navbar
             {...{
@@ -67,7 +67,7 @@ function App() {
           />
           <Route path="manifesto" element={<Manifesto />} />
         </Routes>
-      </BrowserRouter>
+      </HashRouter>
     </>
   );
 }
