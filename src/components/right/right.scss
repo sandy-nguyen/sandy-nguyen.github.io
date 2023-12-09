@@ -1,23 +1,23 @@
 @import "../../global.scss";
 
 .right {
-    
     .image {
-        position: fixed;
-        top: 0px;
-        right: 0px;
-        height: 100%;
-        // vertical-align: middle;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 45%;
 
-        z-index: 8;
-
-        background-color: transparent;
-
-        // overflow: auto;
+    z-index: 8;
+    background-color: transparent;
     }
 }
 
 @media only screen and (max-width: 600px) {
-    .hide-mobile
-    {display:none;}
+    .image-mobile {
+        position: absolute !important;
+        top: 65% !important;
+        width: 248px !important;
+        height: 371px !important;
+        right: 0 !important
+    }
 }

@@ -1,34 +1,51 @@
 @import "../../global.scss";
 
 .intro {
+
+
     scrollbar-width: none; // for firefox
+    display: flex;
+    padding: 196px 173px;
+    flex-direction: column;
+    gap: 32px;
     &::-webkit-scrollbar{
         display: none;
     }
 
-    .title-position {
-        margin: 196px 0 0 173px;
-    }
+    // .title-position {
+    //     margin: 196px 0 0 100px;
+    // }
 
-    .quotation-position-1 {
-        margin: 48px 0 0 173px;
-    }
+    // .quotation-position-1 {
+    //     margin: 48px 0 0 100px;
+    // }
 
     .red-highlight-position {
-        margin: 24px 0 0 173px;
+        align-self: start;
     }
 
-    .quotation-position-2 {
-        margin: 4px 0 0 173px;
-    }
+    // .quotation-position-2 {
+    //     margin: 4px 0 0 100px;
+    // }
 
-    .quotation-position-3 {
-        margin: 27px 0 0 173px;
-    }
+    // .quotation-position-3 {
+    //     margin: 27px 0 0 100px;
+    // }
 
     .black-button-sizing {
         margin-left: 8px;
         width: 110px;
         height: 30px;
     }
+}
+
+@media screen and (max-width: 1024px) {
+    .intro {
+        padding: 112px 1rem !important;
+        gap: 24px !important;
+    }
+
+.Quotation {
+    line-height: 16.2px !important
+}
 }

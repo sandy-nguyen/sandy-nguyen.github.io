@@ -6,9 +6,9 @@
     position: fixed;
     top: 0;
     z-index: 9;
-
+    background: white;
     .wrapper{
-        padding: 32px 72px 0px 64px;
+        padding: 32px 64px;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -46,24 +46,20 @@
 }
 
 
-
 .garden {
     .topbar {
         .right {
             .name {
                 color: #000;
                 text-decoration: none;
-                padding: 6px 8px;
             }
 
             .garden-name {
-                padding: 6px 8px;
                 text-decoration-line: underline;
-                
             }
 
             > *{
-                padding-left: 16px;
+                padding-left: 24px;
             }
         }
     }
@@ -89,6 +85,14 @@
             > *{
                 padding-left: 16px;
             }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .topbar {
+        .wrapper {
+            padding: 32px 20px;
         }
     }
 }

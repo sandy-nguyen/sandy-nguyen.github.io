@@ -1,9 +1,11 @@
 import React, { Component }  from 'react';
 
 import "./intro.scss";
-
+import RightImage from "../right/Right";
 export default function Intro() {
   return (
+    <>
+      <RightImage />
     <div className='intro' id="intro">
       <span class="Title title-position">
         WELCOME TO<br />
@@ -31,10 +33,11 @@ export default function Intro() {
 
       <span class="Quotation quotation-position-3">
         Are you ready to build together?<span class="Dashes">//</span>
-        <a class="Black-button black-button-sizing" href="#portfolio">
+        <a class="Black-button black-button-sizing mobile-hidden" href="#portfolio">
           They Were ↓
         </a>
       </span>
-    </div>
+      </div>
+      </>
   )
 }
