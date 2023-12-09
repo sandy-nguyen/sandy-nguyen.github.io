@@ -11,7 +11,7 @@ export default function Contact() {
       </span>
 
       <span class="Quotation quotation-position-1">
-        Jump down the rabbit hole with me and lets get started on a new project together.<br /> Contact me through any of the following.
+        Jump down the rabbit hole with me and let's get started on a new project together.<br /> Contact me through any of the following.
       </span>
 
 
