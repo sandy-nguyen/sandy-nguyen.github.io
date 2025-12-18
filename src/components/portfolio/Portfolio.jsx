@@ -2,7 +2,9 @@ import React, { Component }  from 'react';
 import { useState } from 'react';
 import "./portfolio.scss";
 import data from './data';
+import { useNavigate } from "react-router-dom";
 export default function Portfolio() {
+  const navigate = useNavigate();
   const [experience, setExperience] = useState("MD");
   const experiences = Object.values(data);
   const [active, setActive] = useState(false)
@@ -39,7 +41,15 @@ export default function Portfolio() {
         {experiences.map((company) => (
           <div
             key={company.key}
-            onClick={() => { handleExperience(company.key); setActive(true) }}
+            onClick={() => { 
+              handleExperience(company.key); 
+              setActive(true); 
+              if (company.key === 'MD') {
+                navigate("/mongodb")
+              } else {
+                window.open(company.link, '_blank');
+              }
+            }}
             className="box mongodb-position"
           >
             <div className="box-wrapper">
@@ -69,7 +79,7 @@ export default function Portfolio() {
       <span class="Quotation quotation-position-2 hide-mobile">
         Curious about my work? Fall into the
         <a class="Black-button black-button-sizing" href="#contact">
-          Rabit Hole ↓
+          Rabbit Hole ↓
         </a>
       </span>
       {active && (
