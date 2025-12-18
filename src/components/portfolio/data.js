@@ -23,6 +23,7 @@ const data = {
     description:
       "Spearheaded the design of the responsive MVP website + lite pages.",
     image: "double-jump-icon.PNG",
+    link: "https://www.figma.com/proto/Qkq8gY3wdfzbNHyvgOBnpK/Double-Jump-Website?node-id=390-1328&t=LGvGgZGzZWHZAUMD-8&scaling=min-zoom&content-scaling=fixed&page-id=383%3A864&starting-point-node-id=390%3A1328&hide-ui=1",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Spearheaded the design of
@@ -39,6 +40,7 @@ const data = {
     position: "FOUNDING DESIGNER",
     description: "Designed an MVP metaverse loan marketplace for land NFTs.  ",
     image: "blockpoly-icon.PNG",
+    link: "https://www.figma.com/proto/VrPMlQrxM99VjEj7QJsTVs/BlockPoly-MVP-Wireframes?node-id=121-394&t=DGEKc1LaulrVy4YN-0&scaling=min-zoom&content-scaling=fixed&page-id=107%3A173&starting-point-node-id=121%3A173&hide-ui=1",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Designed an MVP metaverse
@@ -55,6 +57,7 @@ const data = {
     position: "PRODUCT DESIGNER",
     description: "Created a guided post-purchase download experience. ",
     image: "mcafee-icon.PNG",
+    link: "https://www.figma.com/proto/E0kwaxs7bhvX55MwW2yicg/2025-Portfolio?node-id=708-166&t=oQh0AKUJGZSwsY78-1&scaling=scale-down&content-scaling=fixed&page-id=701%3A17&starting-point-node-id=708%3A166",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Created a guided post-
@@ -71,6 +74,7 @@ const data = {
     position: "UX DESIGNER",
     description: "Built a patient timeline feature + ASD task app.",
     image: "goinvo-icon.PNG",
+    link: "https://www.figma.com/proto/E0kwaxs7bhvX55MwW2yicg/2025-SN-Portfolio?node-id=765-24137&t=0altw4P1nNJST76X-1&scaling=scale-down&content-scaling=fixed&page-id=701%3A17&starting-point-node-id=765%3A24137",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Built a patient timeline
@@ -85,6 +89,7 @@ const data = {
     position: "UX/UI DESIGNER",
     description: "Designed the iOS and web MVP of the aviation marketplace.",
     image: "aeromates-icon.PNG",
+    link: "https://www.linkedin.com/company/aeromates/about/",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Designed the iOS and web
@@ -102,6 +107,7 @@ const data = {
     description:
       "Conceptualized brand identity through style guides and logo design.",
     image: "haus-of-golf-icon.PNG",
+    link: "https://www.facebook.com/HausofGolf",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Conceptualized brand
@@ -118,6 +124,7 @@ const data = {
     position: "UX DESIGNER",
     description: "Designed the user interface for an NFT marketplace.",
     image: "vrillar-icon.PNG",
+    link: "https://vrillar.com/?ckattempt=2",
     render: () => (
       <span className="portfolio-description hide-mobile">
         Designed the user

@@ -1,0 +1,94 @@
+.topbar {
+    background: #F5F5F5 !important;
+}
+
+.mongodb{
+    background-color: #F5F5F5;
+    height: 100vh;
+
+    .section {
+        padding: 148px 173px 84px 173px;
+
+        .line-break {
+            display: block;
+            height: 1px;
+            border-radius: 10px;
+            background-color: #ECE7E5;
+        }
+
+        .description {
+            font-size: 16px;
+            line-height: 1.71;
+            letter-spacing: 0.08px;
+            color: #737373;
+            font-family: "Ubuntu Mono"
+        }
+
+        .title {
+            font-size: 60px;
+            line-height: 1.03;
+            letter-spacing: 0.08px;
+            color: #262626;
+            font-weight: 800;
+            text-decoration: none;
+        }
+
+        .title:hover {
+            color: #A3252E;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+
+    }
+
+    .content {
+        padding: 24px 0 24px 0;
+        display: flex;
+        gap: 20px;
+    }
+
+    .content-text {
+        display: flex;
+        flex-direction: column;
+    }
+
+    img {
+        transform: translateY(36px);
+    }
+}
+
+@media (max-width: 768px) {
+    .mongodb{
+        padding: 118px 20px;
+
+        .section {
+            padding: 0px;
+
+            .title {
+                font-size: 20px;
+            }
+    
+            .description {
+                font-size: 12px;
+                line-height: 21.6px;
+            }
+        }
+
+        .content {
+            padding: 12px 0 12px 0;
+            display: flex; 
+            align-items: center;
+        }
+
+        .content-text {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+        
+        img {
+            transform: translateY(0);
+        }
+    }
+    
+}
