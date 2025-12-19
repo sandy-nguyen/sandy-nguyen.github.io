@@ -6,6 +6,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/NavBar";
 import { useState, useEffect } from "react";
 import MongoDb from "./mongodb";
+import ScrollToTop from "./components/navbar/ScrollToTop";
 function App() {
     const [selectedSection, setSelectedSection] = useState("intro");
   const [isMobile, setIsMobile] = useState(false);
@@ -28,6 +29,7 @@ function App() {
     <>
       <Router>
         <React.Fragment>
+          <ScrollToTop/>
           <Navbar
             {...{
               isMobile,

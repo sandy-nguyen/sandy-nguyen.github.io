@@ -3,6 +3,16 @@ import React, { Component }  from 'react';
 import "./intro.scss";
 import RightImage from "../right/Right";
 export default function Intro() {
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    const y = el.getBoundingClientRect().top + window.pageYOffset - 128;
+
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <>
       <RightImage />
@@ -33,9 +43,9 @@ export default function Intro() {
 
       <span class="Quotation quotation-position-3">
         Are you ready to build together?<span class="Dashes">//</span>
-        <a class="Black-button black-button-sizing mobile-hidden" href="#portfolio">
+        <button class="Black-button black-button-sizing mobile-hidden" onClick={() => scrollTo("portfolio")}>
           They Were ↓
-        </a>
+        </button>
       </span>
       </div>
       </>
