@@ -4,7 +4,7 @@ import "./contact.scss";
 
 export default function Contact() {
   return (
-    <div className="contact" id="contact">
+    <section className="contact" id="contact">
       <span class="Title title-position">
         INTO THE<br />
         RABBIT HOLE<span class="Dashes">//</span>
@@ -52,6 +52,6 @@ export default function Contact() {
           </a>
    
       </div>
-    </div>
+    </section>
   )
 }

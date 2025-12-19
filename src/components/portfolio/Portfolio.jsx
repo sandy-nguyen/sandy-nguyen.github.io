@@ -11,8 +11,19 @@ export default function Portfolio() {
   const handleExperience = (val) => {
     setExperience(val)
   }
+
+  const scrollTo = (id) => {
+    const el = document.getElementById(id);
+    const y = el.getBoundingClientRect().top + window.pageYOffset - 128;
+
+    window.scrollTo({
+      top: y,
+      behavior: "smooth",
+    });
+  };
+
   return (
-    <div className="portfolio" id="portfolio">
+    <section className="portfolio" id="portfolio">
       <span class="Title title-position">
         TRUSTED
         <br />
@@ -78,9 +89,9 @@ export default function Portfolio() {
       </div>
       <span class="Quotation quotation-position-2 hide-mobile">
         Curious about my work? Fall into the
-        <a class="Black-button black-button-sizing" href="#contact">
+        <button class="Black-button black-button-sizing" onClick={() =>scrollTo("contact")}>
           Rabbit Hole ↓
-        </a>
+        </button>
       </span>
       {active && (
         <div className="experience-description hide-desktop">
@@ -95,6 +106,6 @@ export default function Portfolio() {
           <hr />
         </div>
       )}
-    </div>
+    </section>
   );
 }
