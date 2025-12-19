@@ -2,7 +2,7 @@ import Garden from "./Garden";
 import Manifesto from "./Manifesto";
 import "./app.scss";
 import React, { Component }  from 'react';
-import { BrowserRouter, Routes, Route, HashRouter } from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./components/navbar/NavBar";
 import { useState, useEffect } from "react";
 import MongoDb from "./mongodb";
@@ -26,7 +26,7 @@ function App() {
   }
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <React.Fragment>
           <Navbar
             {...{
@@ -69,7 +69,7 @@ function App() {
           <Route path="manifesto" element={<Manifesto />} />
           <Route path="mongodb" element={<MongoDb />} />
         </Routes>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
