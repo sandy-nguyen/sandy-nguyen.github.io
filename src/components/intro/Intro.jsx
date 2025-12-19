@@ -44,7 +44,9 @@ export default function Intro() {
       <span class="Quotation quotation-position-3">
         Are you ready to build together?<span class="Dashes">//</span>
         <button class="Black-button black-button-sizing mobile-hidden" onClick={() => scrollTo("portfolio")}>
-          They Were ↓
+          <div class="button-content">
+            They Were <img src={"/images/arrow.svg"} width={14} height={14}/>
+          </div>
         </button>
       </span>
       </div>

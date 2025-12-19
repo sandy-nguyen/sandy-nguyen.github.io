@@ -73,15 +73,13 @@ $mainColor: #a53c46;
 }
 
 .Black-button {
-    display: inline;
-    vertical-align: middle;
-
-    text-decoration: none;
-    line-height: normal;
+    display: inline-flex;
+    align-items: center;   /* center the text inside the button */
+    justify-content: center;
 
     border-radius: 20px;
     background-color: #000;
-    padding: 10px;
+    padding: 2px;
 
     text-align: center;
     font-family: Ubuntu Mono;

@@ -90,7 +90,9 @@ export default function Portfolio() {
       <span class="Quotation quotation-position-2 hide-mobile">
         Curious about my work? Fall into the
         <button class="Black-button black-button-sizing" onClick={() =>scrollTo("contact")}>
-          Rabbit Hole ↓
+        <div class="button-content">
+            Rabbit Hole <img src={"/images/arrow.svg"} width={14} height={14}/>
+          </div>
         </button>
       </span>
       {active && (
