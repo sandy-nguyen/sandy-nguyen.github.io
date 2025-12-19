@@ -1,7 +1,8 @@
 import React from "react";
 import styled from "styled-components";
 import { Link } from "react-router-dom";
-import { useNavigate } from "react-router-dom";
+import { useNavigate,useLocation } from "react-router-dom"; 
+import { useEffect } from "react";
 const Ul = styled.ul`
   list-style: none;
   display: flex;
@@ -158,11 +159,12 @@ const Ul = styled.ul`
 
 const RightNav = ({ open, setOpen, setSelectedSection, dark, setDark, isMobile }) => {
   const navigate = useNavigate();
+  const {pathname} = useLocation();
 
   const navigation = [
     {
       title: "RESUME",
-      href: "https://drive.google.com/file/d/1CeBOftEQb7FyD2K8waF91TloiMtjClnT/view",
+      href: "https://drive.google.com/file/d/18Mrwja4NyDmFLI6TT9fAckl41jc6jTTU/view",
       isHard: true,
     },
     {
@@ -176,8 +178,18 @@ const RightNav = ({ open, setOpen, setSelectedSection, dark, setDark, isMobile }
       isHard: true,
     },
   ];
+  const isMongo = pathname === "/mongodb"
+  const isManifesto = pathname === "/manifesto"
+  const backgroundColor = isMongo ? "#F5F5F5" : dark ? "black" : "white"
+
+  useEffect(() => {
+    if (isManifesto) {
+      setDark(true);
+    }
+  })
+
   return (
-    <div style={{ background: dark ? "black" : "white" }} className="topbar">
+    <div style={{ background: backgroundColor }} className="topbar">
       <div className="wrapper">
         <div className="left">
           <a
@@ -213,7 +225,6 @@ const RightNav = ({ open, setOpen, setSelectedSection, dark, setDark, isMobile }
                 setDark(false);
                 navigate("/garden");
               }}
-              href={"#"}
               className={` ${
                 dark && !isMobile ? "name" : "text-decoration-underline"
               }`}
@@ -228,7 +239,6 @@ const RightNav = ({ open, setOpen, setSelectedSection, dark, setDark, isMobile }
                 navigate("/manifesto");
                 setDark(true);
               }}
-              href={"#"}
               className={` ${dark && !isMobile ? "name manifesto-name" : ""}`}
             >
               <span className="navigation">MANIFESTO</span>
