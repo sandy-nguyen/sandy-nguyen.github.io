@@ -32,7 +32,7 @@ export default function Portfolio() {
 
       <div class="Red-highlighting red-highlight-position hide-mobile">
         I believe good design is where art, community, and technology fuse to
-        create magic
+        create magic.
       </div>
 
       <span class="Quotation quotation-position-1 hide-mobile">
