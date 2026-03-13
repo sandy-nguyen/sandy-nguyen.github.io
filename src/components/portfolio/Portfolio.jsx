@@ -36,10 +36,9 @@ export default function Portfolio() {
       </div>
 
       <span class="Quotation quotation-position-1 hide-mobile">
-        Jump down the rabbit hole with me and lets get started on a new project
-        together.
+        My job has always been to rewrite the lines between the physical and digital worlds
         <br />
-        Contact me through any of the following.
+        to create magic moments.
         <br />
         <br />
         I’ve designed for the following companies. However, when I’m not pixel
